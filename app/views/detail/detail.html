@@ -1,0 +1,12 @@
+<sh-info hero="selectedHero" show-view-button="false"></sh-info>
+<img class="heroBannerImage" src="{{selectedHeroObj.backgroundImage}}">
+<div class="heroInfo">
+	<div ng-repeat="detail in selectedHeroDetail" class="row">
+		<div class="col-md-4">
+			<strong><span ng-bind="detail.key"></span></strong>
+		</div>
+		<div class="col-md-8 infoSpace">
+			<span ng-bind="detail.value"></span>
+		</div>
+	</div>
+</div>

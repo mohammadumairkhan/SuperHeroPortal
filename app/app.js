@@ -4,10 +4,15 @@
 angular.module('SHeroPortal', ['ui.bootstrap', 'ngRoute']).config(function($routeProvider){
     $routeProvider
         .when('/', {
-          templateUrl:"./app/views/homepage.html"
+          	templateUrl:"./app/views/homepage.html"
         })
         .when('/dashboard', {
-        templateUrl: './app/views/registration/register.html',
-        controller: 'registerCtrl'
-    });
+        	templateUrl: './app/views/dashboard/dashboard.html',
+        	controller: 'dashboardCtrl'
+        })
+        .when('/detail',{
+        	templateUrl: './app/views/detail/detail.html',
+        	controller: 'detailCtrl'
+        })
+        .otherwise({ redirectTo: '/' });
 });

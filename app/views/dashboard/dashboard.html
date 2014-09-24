@@ -1,0 +1,25 @@
+<div ng-include="'./app/views/navbar.html'"></div>
+
+<div ng-repeat="hero in heros">
+	<div class="shInfoContainer">
+		<sh-info hero="hero" show-view-button="true"></sh-info>	
+	</div>
+	
+	<!-- <div class="row">
+	  <div class="col-md-8">
+	  	<div class="row">
+	  		<strong>Name: </strong><span ng-bind="hero.name"></span>	
+	  	</div>
+	  	<div class="row">
+	  		<strong>Affiliation: </strong> <span ng-bind="hero.affiliation"></span>
+	  	</div>
+	  	<div class="row">
+	  		<strong>Secret Identity: </strong> <span ng-bind="hero.secretIdentity"></span>	
+	  	</div>
+	  </div>
+	  <div class="col-md-4">
+		<img class="superheroImg" ng-src="{{hero.picture}}"/>  	
+	  </div>
+	</div> -->
+</div>
+

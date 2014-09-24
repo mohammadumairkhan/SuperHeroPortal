@@ -1,0 +1,19 @@
+<div class="row superheroInfoContainer">
+  <div class="col-md-10">
+  	<div class="row">
+  		<strong>Name: </strong><span ng-bind="hero.name"></span>	
+  	</div>
+  	<div class="row">
+  		<strong>Affiliation: </strong> <span ng-bind="hero.affiliation"></span>
+  	</div>
+  	<div class="row">
+  		<strong>Secret Identity: </strong> <span ng-bind="hero.secretIdentity"></span>	
+  	</div>
+  	<div class="row" ng-if="showViewButton">
+  		<input type="button" class="btn btn-primary" value="view" ng-click="onHeroClick(hero)"/>
+  	</div>
+  </div>
+  <div class="col-md-2">
+	<img class="superheroImg" ng-src="{{hero.picture}}"/>  	
+  </div>
+</div>

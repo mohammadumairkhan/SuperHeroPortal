@@ -18,3 +18,21 @@
     position: relative;
     top: 22px;
 }
+
+.superheroImg{
+	width: 75px;
+	margin-top: 15px;
+}
+
+.superheroInfoContainer{
+	padding-bottom: 10px;
+	border: solid;
+}
+
+.heroBannerImage{
+	width: 1140px;
+}
+
+.infoSpace{
+	padding-bottom: 10px;
+}
