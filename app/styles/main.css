@@ -1,0 +1,20 @@
+.homeContainer{
+    text-align:center;
+}
+
+.homeImage{
+    width: 500px;
+}
+
+.homeEnterButtonWrap{
+    margin: 100px 0 0 0;
+    width: 350px;
+    height: 75px;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.homeEnterButtonWrap .buttonText{
+    position: relative;
+    top: 22px;
+}
