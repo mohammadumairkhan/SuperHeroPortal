@@ -12,7 +12,7 @@ module.exports = function (grunt) {
 			}
 		}
 	});
-	grunt.registerTask('server', ['connect:server', 'open:dev']);
+	grunt.registerTask('server', ['connect:server']);
 
 	grunt.loadNpmTasks('grunt-contrib-connect');
 }
